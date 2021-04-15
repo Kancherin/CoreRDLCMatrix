@@ -30,12 +30,12 @@ namespace CoreRDLCMatrix.Web.Controllers
         public IActionResult Print()
         {
             var dt = new DataTable();
-            DateTime inicio = Convert.ToDateTime("2021/01/01");
+            DateTime inicio = Convert.ToDateTime("2021/03/01");
             DateTime fin = DateTime.Now;
             dt = adultosDAL.AdultosUltimoContacto(inicio, fin);
             string mimetype = "";
             int extension = 1;
-            var path = $"{this._webHostEnvironment.WebRootPath}\\Reports\\AdultosUltContacto.rdlc";
+            var path = $"{this._webHostEnvironment.WebRootPath}\\Reports\\AdultosUltimoContacto.rdlc";
 
             Dictionary<string, string> parameters = new Dictionary<string, string>();
             parameters.Add("prm", "RDLC Matrix Report");

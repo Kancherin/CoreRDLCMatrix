@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAdultosUltimoContacto" targetNamespace="http://tempuri.org/dsAdultosUltimoContacto.xsd" xmlns:mstns="http://tempuri.org/dsAdultosUltimoContacto.xsd" xmlns="http://tempuri.org/dsAdultosUltimoContacto.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAdultosUltimoContacto" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsAdultosUltimoContacto" msprop:Generator_UserDSName="dsAdultosUltimoContacto">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsAdultosUltimoContacto" msprop:Generator_TableClassName="dsAdultosUltimoContactoDataTable" msprop:Generator_TableVarName="tabledsAdultosUltimoContacto" msprop:Generator_TablePropName="_dsAdultosUltimoContacto" msprop:Generator_RowDeletingName="dsAdultosUltimoContactoRowDeleting" msprop:Generator_RowChangingName="dsAdultosUltimoContactoRowChanging" msprop:Generator_RowEvHandlerName="dsAdultosUltimoContactoRowChangeEventHandler" msprop:Generator_RowDeletedName="dsAdultosUltimoContactoRowDeleted" msprop:Generator_UserTableName="dsAdultosUltimoContacto" msprop:Generator_RowChangedName="dsAdultosUltimoContactoRowChanged" msprop:Generator_RowEvArgName="dsAdultosUltimoContactoRowChangeEvent" msprop:Generator_RowClassName="dsAdultosUltimoContactoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="Adulto" msprop:Generator_ColumnVarNameInTable="columnAdulto" msprop:Generator_ColumnPropNameInRow="Adulto" msprop:Generator_ColumnPropNameInTable="AdultoColumn" msprop:Generator_UserColumnName="Adulto" type="xs:string" minOccurs="0" />
+              <xs:element name="Efector" msprop:Generator_ColumnVarNameInTable="columnEfector" msprop:Generator_ColumnPropNameInRow="Efector" msprop:Generator_ColumnPropNameInTable="EfectorColumn" msprop:Generator_UserColumnName="Efector" type="xs:string" minOccurs="0" />
+              <xs:element name="zona" msprop:Generator_ColumnVarNameInTable="columnzona" msprop:Generator_ColumnPropNameInRow="zona" msprop:Generator_ColumnPropNameInTable="zonaColumn" msprop:Generator_UserColumnName="zona" type="xs:string" minOccurs="0" />
+              <xs:element name="DNI" msprop:Generator_ColumnVarNameInTable="columnDNI" msprop:Generator_ColumnPropNameInRow="DNI" msprop:Generator_ColumnPropNameInTable="DNIColumn" msprop:Generator_UserColumnName="DNI" type="xs:string" minOccurs="0" />
+              <xs:element name="Diab" msprop:Generator_ColumnVarNameInTable="columnDiab" msprop:Generator_ColumnPropNameInRow="Diab" msprop:Generator_ColumnPropNameInTable="DiabColumn" msprop:Generator_UserColumnName="Diab" type="xs:string" minOccurs="0" />
+              <xs:element name="Hip" msprop:Generator_ColumnVarNameInTable="columnHip" msprop:Generator_ColumnPropNameInRow="Hip" msprop:Generator_ColumnPropNameInTable="HipColumn" msprop:Generator_UserColumnName="Hip" type="xs:string" minOccurs="0" />
+              <xs:element name="Covid" msprop:Generator_ColumnVarNameInTable="columnCovid" msprop:Generator_ColumnPropNameInRow="Covid" msprop:Generator_ColumnPropNameInTable="CovidColumn" msprop:Generator_UserColumnName="Covid" type="xs:string" minOccurs="0" />
+              <xs:element name="fechaUltimoContacto" msprop:Generator_ColumnVarNameInTable="columnfechaUltimoContacto" msprop:Generator_ColumnPropNameInRow="fechaUltimoContacto" msprop:Generator_ColumnPropNameInTable="fechaUltimoContactoColumn" msprop:Generator_UserColumnName="fechaUltimoContacto" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="estadoPaciente" msprop:Generator_ColumnVarNameInTable="columnestadoPaciente" msprop:Generator_ColumnPropNameInRow="estadoPaciente" msprop:Generator_ColumnPropNameInTable="estadoPacienteColumn" msprop:Generator_UserColumnName="estadoPaciente" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

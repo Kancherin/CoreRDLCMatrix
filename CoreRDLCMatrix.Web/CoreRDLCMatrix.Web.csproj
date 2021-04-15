@@ -1,13 +1,43 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Reports\AdultosUltimoContacto.rdlc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\Reports\AdultosUltimoContacto.rdlc" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AspNetCore.Reporting" Version="2.1.0" />
     <PackageReference Include="System.CodeDom" Version="5.0.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ReportDataSet\dsAdultosUltimoContacto.Designer.cs">
+      <DependentUpon>dsAdultosUltimoContacto.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ReportDataSet\dsAdultosUltimoContacto.xsc">
+      <DependentUpon>dsAdultosUltimoContacto.xsd</DependentUpon>
+    </None>
+    <None Update="ReportDataSet\dsAdultosUltimoContacto.xsd">
+      <SubType>Designer</SubType>
+      <LastGenOutput>dsAdultosUltimoContacto.Designer.cs</LastGenOutput>
+      <Generator>MSDataSetGenerator</Generator>
+    </None>
+    <None Update="ReportDataSet\dsAdultosUltimoContacto.xss">
+      <DependentUpon>dsAdultosUltimoContacto.xsd</DependentUpon>
+    </None>
   </ItemGroup>
 
 </Project>
